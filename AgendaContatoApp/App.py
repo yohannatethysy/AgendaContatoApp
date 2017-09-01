@@ -18,12 +18,11 @@ def para_dict(obj):
 def main():
 
     def incluirNovoContato():
-        ####### Refazer #######
-        # Carregando
+   
         v = open("Agenda.json", "r", encoding='utf8')
         agendaJson = json.load(v)
         agenda = Agenda(agendaJson['proprietario'], agendaJson['contatos'])
-        ######## Refazer #######
+        
 
         nome = input("Qual o nome do proprietário? ")
         nascimento = input("Qual a data de nascimento do proprietário? ")
