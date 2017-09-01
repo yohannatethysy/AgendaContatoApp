@@ -1,0 +1,2 @@
+class Telefone():
+    pass
