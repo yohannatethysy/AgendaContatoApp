@@ -39,11 +39,10 @@ def main():
         contato = Contato(pessoa, telefone)
         agenda.incluirContato(contato)
 
-        ###### Refazer #######
-        # Salvando
+        
         aJson = json.dumps(para_dict(agenda))
 
         v = open("Agenda.json", "w", encoding='utf8')
 
         v.write(aJson)
-        ##### Refazer #######
+       
