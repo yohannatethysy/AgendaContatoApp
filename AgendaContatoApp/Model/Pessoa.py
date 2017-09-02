@@ -1,2 +1,5 @@
 class Pessoa():
-    pass
+    def __init__(self, nome, nascimento, email):
+        self.nome = nome
+        self.nascimento = nascimento
+        self.email = email
