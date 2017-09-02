@@ -1,4 +1,4 @@
-cimport datetime
+import datetime
 
 class Contato():
     def __init__(self, pessoa, telefone):
